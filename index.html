@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <title>Advice Generator App</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title"></h1>
+        <p id="text"></p>
+
+        <picture>
+            <source media="(min-width: 786px)" srcset="./images/pattern-divider-desktop.svg">
+            <img src="./images/pattern-divider-mobile.svg" alt="">
+        </picture>
+
+        <div>
+            <button onclick="fetchAdvice()">
+                <img src="./images/icon-dice.svg" alt="">
+            </button>
+        </div>
+    </div>
+
+</body>
+</html>
